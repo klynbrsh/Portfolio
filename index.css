@@ -1,0 +1,18 @@
+body{
+    background-color: lightblue;
+}
+
+.menu{
+    background-color: #ccc;
+    width: 250px;
+    height: 100%;
+    position: sticky;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+.content{
+    padding: 25px;
+    margin: 25px;
+}
