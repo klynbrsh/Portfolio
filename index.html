@@ -10,50 +10,266 @@
 </head>
 
 <body>
-    <div class="menu">
+    <aside>
+        <nav class="sidemenu">
         <h2>Style Guide Menu</h2>
         <p>Kailyn Brush Portfolio Content Style Guide</p>
+        <a href="#Header">Guidelines</a><br>
         <a href="#Logo">Logo</a><br>
-        <a href="#Logo">Typography</a><br>
-        <a href="#Logo">Colors</a><br>
-        <a href="#Logo">buttons</a><br>
-        <a href="#Logo">Icons</a><br>
-        <a href="#Logo">Imagery</a><br>
-        <a href="#Logo">Contact</a><br>
-    </div>
-<div class="Content">
-    <div id="Header">
+        <a href="#Typography">Typography</a><br>
+        <a href="#Colors">Colors</a><br>
+        <a href="#Buttons">buttons</a><br>
+        <a href="#Icons">Icons</a><br>
+        <a href="#Imagery">Imagery</a><br>
+        <a href="#Contact">Contact</a><br>
+        </nav>
+    </aside>
+<section class="Content">
+    <div class="content-container">
+    <article id="Header">
         <h1> Welcome to my Style Guide</h1>
         <p> This is the proposed style guide for my portfolio website. All the elements are grouped in a way that makes them accessible and convenient. </p>
-     </div>
+    </article>
+<hr>
 
-    <div id="Logo">
+    <article id="Logo" class="margin">
         <h2>Logo</h2>
-    </div>
+        <div class="row-container-no wrap">
+                <img src="" class="section-logo">
+                <img src="" class="section-logo">
+        </div>
+    </article>
+<hr>
 
-    <div id="Typography">
+    <article id="Typography">
         <h2>Typography</h2>
-    </div>
+        <div class="type-faces">
+                <p> My protfolio uses the following two typefaces:</p>
+                <h2 class="type-faces-02">
+                    Open Sans
+                </h2>
+                <p> Open sans is to be used for headers.</p>
+                <h2 class="type-faces-01">
+                    Lucida Sans
+                </h2>
+                <p> Lucida sans is to be used for headers.</p>
+        </div>
+        <div class="type-styles">
+                    <h1>
+                        This is an H1.
+                    </h1>
+                    <h2>
+                        This is an H2.
+                    </h2>
+                    <h3>
+                        This is an H3.
+                    </h3>
+                    <h4>
+                        This is an H4.
+                    </h4>
+                    <h5>
+                        This is an H5.
+                    </h5>
+                    <h6>                           
+                        This is an H6.
+                    </h6>
+                    <p> This is a paragraph</p>
+        </div>
+<br>
+            <section class="code">
+                    <div>
+                    <h4>CSS</h4>
+                        <pre>
+                            font-family: Verdana, Geneva, Tahoma, sans-serif; 
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        </pre>
+                    </div>
+            </section>
+    </article>
+<hr>
 
-    <div id="Colors">
+    <article id="Colors">
         <h2>Colors</h2>
-    </div>
+        <h3>
+            Primary Colors
+        </h3>
+        <div class="row-container">
+                <div class="color-item">
+                    <span class="color-shape color-red">
 
-    <div id="buttons">
+                    </span>
+                    <p>#00000</p>
+                    <p>#00000</p>
+                </div>
+                <div class="color-item">
+                    <span class="color-shape color-orange">
+
+                    </span>
+                    <p>#00000</p>
+                    <p>#00000</p>
+                </div>
+                <div class="color-item">
+                    <span class="color-shape color-yellow">
+
+                    </span>
+                    <p>#00000</p>
+                    <p>#00000</p>
+                </div>
+                <div class="color-item">
+                    <span class="color-shape color-green">
+
+                    </span>
+                    <p>#00000</p>
+                    <p>#00000</p>
+                </div>
+                <h3>
+                    Secondary Colors
+                </h3>
+                <div class="row-container">
+                        <div class="color-item">
+                            <span class="color-shape color-blue">
+
+                            </span>
+                            <p>#00000</p>
+                            <p>#00000</p>
+                        </div>
+                        <div class="color-item">
+                            <span class="color-shape color-purple">
+
+                            </span>
+                            <p>#00000</p>
+                            <p>#00000</p>
+                        </div>
+                        <div class="color-item">
+                            <span class="color-shape color-gray">
+
+                            </span>
+                            <p>#00000</p>
+                            <p>#00000</p>
+                        </div>
+                        <div class="color-item">
+                            <span class="color-shape color-black">
+
+                            </span>
+                            <p>#00000</p>
+                            <p>#00000</p>
+                        </div>
+                    </div>    
+                    <section class="code">
+                        <div>
+                            <h4>CSS</h4>
+                                <pre>
+                                    /*Primary Colors*/                
+                                    button {
+                                        background: tomato;
+                                        height: 40px;
+                                        width: 120px;
+                                        border-radius: 4px;
+                                        padding: 5px;
+                                        margin: 20px;
+                                    }
+
+                                    button:hover {
+                                        background: yellow;
+                                    }
+  
+                                </pre>
+                        </div>
+
+<br>
+</article>
+<hr>
+
+    <article id="buttons" class="buttons">
         <h2>Buttons</h2>
-    </div>
+        <div class="row-container">
+                <button class="button-normal">
+                    Normal
+                </button>
+                <button class="button-hover">
+                    Hover
+                </button>
+                <button class="button-pressed">
+                    Pressed
+                </button>
+                <button class="button-loading">
+                    <i class="fas fa-spinner"></i> Loading
+                </button>
+                <button class="button-disable">
+                    Disabled
+                </button>
+            </div>
+            <section class="code">
+                <div>
+                    <h4>CSS</h4>
+                        <pre>
+                            /*Primary Colors*/                
+                            button {
+                            background: tomato;
+                            height: 40px;
+                            width: 120px;
+                            border-radius: 4px;
+                            padding: 5px;
+                            margin: 20px;
+                            }
 
-    <div id="Icons">
+                            button:hover {
+                            background: yellow;
+                            }
+
+                        </pre>
+                </div>
+            </section>
+    </article>
+<hr>
+    <article id="Icons">
         <h2>Icons</h2>
-    </div>
+        <div class="row-container usps-icons">
+                <i class="fas fa-cubes"></i>
+                <i class="fas fa-box"></i>
+                <i class="fas fa-cube"></i>
+                <i class="fas fa-envelope-square"></i>
+                <i class="far fa-envelope"></i>
+                <i class="fas fa-envelope-open-text"></i>
+                <i class="fas fa-fighter-jet"></i>
+                <i class="fas fa-shipping-fast"></i>
+            </div>
+            <div class="row-container svg-icons">
+                <img src="images/svg/001-teacher.svg">
+                <img src="images/svg/005-trophy.svg">
+                <img src="images/svg/009-notebook.svg">
+                <img src="images/svg/011-laptop.svg">
+                <img src="images/svg/012-friends.svg">
+            </div>
+    </article>
+<hr>
 
-    <div id="Imagery">
+    <article id="Imagery">
         <h2>Imagery</h2>
-    </div>
+        <div class="row-container-around">
+                <img src="https://via.placeholder.com/350x250">
+                <img src="https://via.placeholder.com/350x250">
+                <img src="https://via.placeholder.com/350x150">
+                <img src="https://via.placeholder.com/350x150">
+        </div>
+    </article>
+<hr>
 
-    <div id="Contact">
-        <h2>Contact</h2>
-    </div>
+    <article id="Contact" class="socials">
+        <h2>Contact Me</h2>
+        <div class="row-container-around">
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:YOUREMAIL">
+                    <i class="fa fa-envelope"></i>
+                </a>
+            </div>
+    </article>
 </div>
+</section>
 </body>
 </html>
