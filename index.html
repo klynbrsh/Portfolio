@@ -80,8 +80,8 @@
                     <div>
                     <h4>CSS</h4>
                         <pre>
-                            font-family: Verdana, Geneva, Tahoma, sans-serif; 
-                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-family: 'Courier New', Courier, monospace;
                         </pre>
                     </div>
             </section>
@@ -162,19 +162,37 @@
                         <div>
                             <h4>CSS</h4>
                                 <pre>
-                                    /*Primary Colors*/                
-                                    button {
-                                        background: tomato;
-                                        height: 40px;
-                                        width: 120px;
-                                        border-radius: 4px;
-                                        padding: 5px;
-                                        margin: 20px;
-                                    }
-
-                                    button:hover {
-                                        background: yellow;
-                                    }
+                                        .color-pink {
+                                            background: #FFEEF5;
+                                        }
+                                          
+                                        .color-teal {
+                                            background: #008080;
+                                        }
+                                          
+                                        .color-navy {
+                                            background: #323663;
+                                        }
+                                          
+                                        .color-white {
+                                            background: #F2F2F2;
+                                        }
+                                          
+                                        .color-darkpink {
+                                            background: #FADADD;
+                                        }
+                                          
+                                        .color-darkteal {
+                                            background: #536872;
+                                        }
+                                          
+                                        .color-darknavy {
+                                            background: #3F4354;
+                                        }
+                                          
+                                        .color-gray {
+                                            background: #9C9C9C;
+                                        }
   
                                 </pre>
                         </div>
@@ -206,20 +224,32 @@
                 <div>
                     <h4>CSS</h4>
                         <pre>
-                            /*Primary Colors*/                
-                            button {
-                            background: tomato;
-                            height: 40px;
-                            width: 120px;
-                            border-radius: 4px;
-                            padding: 5px;
-                            margin: 20px;
-                            }
-
-                            button:hover {
-                            background: yellow;
-                            }
-
+                                .buttons button {
+                                    height: 40px;
+                                    width: 120px;
+                                    border-radius: 4px;
+                                    padding: 5px;
+                                    margin: 20px;
+                                    font-family: Arial, Helvetica, sans-serif;
+                                    font-weight: 600;
+                                }
+                                  
+                                .button-normal {
+                                    background: #008080;
+                                    color: rgb(255, 255, 255);
+                                }
+                                  
+                                .button-hover {
+                                    background: rgb(215, 215, 215);
+                                    color: #008080;
+                                }
+                                  
+                                .button-pressed,
+                                .button-loading {
+                                    background: rgb(215, 215, 215);
+                                    color: #008080;
+                                    box-shadow: 0px 2px 6px #536872;
+                                }
                         </pre>
                 </div>
             </section>
@@ -227,7 +257,7 @@
 <hr>
     <article id="Icons">
         <h2>Icons</h2>
-        <div class="row-container usps-icons">
+        <div class="row-container kay-icons">
                 <i class="fas fa-chevron-circle-left"></i>
                 <i class="far fa-envelope"></i>
                 <i class="fas fa-plus"></i>
@@ -244,10 +274,9 @@
     <article id="Imagery">
         <h2>Imagery</h2>
         <div class="row-container-around">
+                <img src="https://via.placeholder.com/200x200">
                 <img src="https://via.placeholder.com/350x250">
-                <img src="https://via.placeholder.com/350x250">
-                <img src="https://via.placeholder.com/350x150">
-                <img src="https://via.placeholder.com/350x150">
+                <img src="https://via.placeholder.com/750x150">
         </div>
     </article>
 <hr>
@@ -263,6 +292,9 @@
                 </a>
                 <a href="mailto:YOUREMAIL">
                     <i class="fa fa-envelope"></i>
+                </a>
+                <a href="#">
+                    <i class="fas fa-mobile-alt"></i>    
                 </a>
             </div>
     </article>

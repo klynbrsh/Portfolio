@@ -64,11 +64,7 @@ h1 {
     font-weight: 700;
 }
   
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2,h3,h4,h5,h6 {
     font-weight: 600;
 }
   
@@ -159,7 +155,7 @@ h6 {
 .button-loading {
     background: rgb(215, 215, 215);
     color: #008080;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 2px 6px #536872;
 }
   
 .button-disabled {
@@ -168,27 +164,22 @@ h6 {
 
 
 /*Icon Styles*/
-.usps-icons i {
+.kay-icons i {
     margin-top: 40px;
     font-size: 30px;
     color: rgb(51, 51, 102);
 }
-  
-.svg-icons img {
-    margin-top: 40px;
-    width: 100px;
-    height: 100px;
-}
+
 
 
 /*Footer Icon*/
-.social-icons i {
+.socials i {
     font-size: 44px;
-    color: tomato;
+    color: #323663;
 }
   
-.social-icons i:hover {
-    color: magenta;
+.socials i:hover {
+    color: #3F4354;
 }
 
 
